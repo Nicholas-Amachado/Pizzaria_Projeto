@@ -1,0 +1,204 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 6000px;
+}
+
+#mainNavigation a {
+  font-family: 'Cabin', sans-serif;
+  font-size:16px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight: bold;
+}
+.invert{
+  width: 120px;
+}
+
+.dropdown-menu {
+  background:#025e0b;
+  width: 50%;
+  margin: auto;
+  text-align: center; 
+}
+a.dropdown-toggle {
+  color:#dfdfdf; 
+}
+a.dropdown-item:hover {
+  color:#116101;
+  
+}
+.nav-item a{
+  color:#dfdfdf;
+}
+.nav-item a:hover {
+  color:#161515;
+}
+.nav-item{
+  min-width:14vw;
+}
+#mainNavigation {
+  width:100%;
+  z-index:123;
+  background-color: #ff0c0c;
+  height: 0px;
+  padding-bottom:210px;
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav{
+  background:#e90a0a;
+  padding:12px;
+}
+
+  .banner-main{
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  padding-top:50px ;
+  background-image: url(/IMG/banners.jpg);
+  border-bottom: 8px #ff0c0c solid;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  }
+  .banner-main h1{
+    font-size: 70px;
+    width: 700px;
+    height: 220px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(33, 33, 33, 0.21);
+
+  }
+  .banner-main span{
+    font-size: 100px;
+  }
+
+  .banner-main a{
+    
+    padding: 15px 25px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    color: #dfdfdf;
+    border-bottom: 1px white solid;
+    transition: 0.5s;
+  }
+  .banner-main a:hover{
+     
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .monte-pizza{
+    margin: 0 auto 3rem ;
+    padding-bottom: 3rem;
+    border-bottom: 2px rgb(169, 169, 169) solid;
+    width: 80%;
+    
+  }
+
+  .card-img-top{
+    height: 200px;
+  }
+
+  .monte-pizza h2,
+  .nosso-cardapio h2,
+  .avaliacoes-container h2{
+    text-align: center;
+    color: #0a0a0a;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 55px;
+    margin: auto;
+    margin-top: 2rem;
+  }
+  .monte-pizza span,
+  .nosso-cardapio span,
+  .avaliacoes-container{
+    color: #f20b0b;
+
+  }
+  .separador{
+    text-align: center;
+    position: relative;
+    top: -5px;
+    
+  }
+  .separador h2{
+    padding: 8px 7px;
+    color: #fff;
+    font-size: 21px;
+    background-color: #ff0c0c;
+    width: 300px;
+    margin: auto;
+    line-height: 30px;
+  }
+
+  .container-card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+
+  .card{
+    box-shadow: 5px 5px 20px black;
+  }
+  .botao-monte-sua-pizza{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .botao-monte-sua-pizza button{
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: #ff0c0c;
+    border: none;
+    transition: 0.5s;
+  }
+  .botao-monte-sua-pizza button:hover{
+    background-color: #e80808;
+  }
+
+  .botao-monte-sua-pizza a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .banner-secundario{
+    width: 100%;
+    height: 450px;
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(/IMG/bannerex2.jpg);
+    border-bottom: 8px #ff0c0c solid;
+  }
+
+  main{
+    background-color: #ffffff;
+  }
+
+
+  .nosso-cardapio{
+    margin: 0 auto 3rem ;
+    width: 80%;
+    
+  }
+
+  @media screen and (max-width="768px"){
+    .dropdown-menu{
+      background-color: #e80808;
+    }
+
+    header{
+      height: 1100px;
+    }
+  }
+
+
