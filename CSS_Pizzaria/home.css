@@ -5,9 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-  height: 6000px;
-}
 
 #mainNavigation a {
   font-family: 'Cabin', sans-serif;
@@ -44,7 +41,7 @@ a.dropdown-item:hover {
 }
 #mainNavigation {
   width:100%;
-  z-index:123;
+  
   background-color: #ff0c0c;
   height: 0px;
   padding-bottom:210px;
@@ -53,6 +50,8 @@ a.dropdown-item:hover {
 #navbarNavDropdown.show .navbar-nav{
   background:#e90a0a;
   padding:12px;
+  display: inline-block;
+  width: 100%;
 }
 
   .banner-main{
@@ -120,7 +119,7 @@ a.dropdown-item:hover {
   }
   .monte-pizza span,
   .nosso-cardapio span,
-  .avaliacoes-container{
+  .avaliacoes-container span{
     color: #f20b0b;
 
   }
@@ -147,7 +146,8 @@ a.dropdown-item:hover {
   }
 
   .card{
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 0 0 20px 5px rgb(198, 196, 196);
+    border: none;
   }
   .botao-monte-sua-pizza{
     margin-top: 3rem;
@@ -191,14 +191,102 @@ a.dropdown-item:hover {
     
   }
 
-  @media screen and (max-width="768px"){
-    .dropdown-menu{
-      background-color: #e80808;
+  .separador h3{
+    padding: 8px 7px;
+    color: #fff;
+    font-size: 21px;
+    background-color: #ff0c0c;
+    width: 300px;
+    margin: auto;
+    font-weight:bolder;
+    text-transform: uppercase;
+    line-height: 30px;
+  }
+
+  .avaliacoes-container{
+    margin-bottom: 3rem;
+  }
+
+  .avalie{
+  
+    margin-top: 2rem;
+  }
+
+  .container-input-avaliacao{
+
+      text-align: center;
+  }
+
+  .container-input-avaliacao input[type="text"]{
+    padding: 10px;
+    width: 247px;
+    margin-bottom: 20px;
+    
+  }
+  .container-input-avaliacao textarea{
+    display: block;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+  }
+
+  .container-input-avaliacao input[type="submit"]{
+    margin-top: 10px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #0e0e0e;
+    border: none;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.5s;
+  }
+
+  .container-input-avaliacao input[type="submit"]:hover{
+    opacity: 0.8;
+  }
+
+  footer{
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .itens-footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .itens-footer li{
+    list-style: none;   
+    width: 100px;
+  }
+
+  footer .container{
+    padding-top: 2rem;
+    width: 80%;
+    margin: auto;
+    border-top: 2px rgb(108, 104, 104) solid;
+  }
+
+  .itens-footer img{
+    width: 40px;
+  }
+
+  @media screen and (max-width:769px){
+
+
+    #navbarNavDropdown.collapsing .navbar-nav,
+    #navbarNavDropdown.show .navbar-nav{
+      background:#e90a0a;
+      padding:12px;
+      order: 2;
     }
 
-    header{
-      height: 1100px;
-    }
   }
 
 
