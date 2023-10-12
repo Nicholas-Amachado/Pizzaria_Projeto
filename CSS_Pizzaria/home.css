@@ -12,16 +12,23 @@
   text-transform:uppercase;
   letter-spacing:2px;
   font-weight: bold;
+  transition: 0.5s;
 }
 .invert{
   width: 120px;
 }
 
 .dropdown-menu {
-  background:#025e0b;
-  width: 50%;
-  margin: auto;
+  background-color: #ff0c0c;
+  width: 100%;
+  border: none;
+  transition: none;
+  margin-left: auto;
   text-align: center; 
+}
+
+.dropdown-menu:hover a{
+  background-color: #ff0c0c;
 }
 a.dropdown-toggle {
   color:#dfdfdf; 
@@ -41,9 +48,9 @@ a.dropdown-item:hover {
 }
 #mainNavigation {
   width:100%;
-  
   background-color: #ff0c0c;
   height: 0px;
+  
   padding-bottom:210px;
 }
 #navbarNavDropdown.collapsing .navbar-nav,
@@ -143,6 +150,11 @@ a.dropdown-item:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 3rem;
+  }
+
+  .card h5{
+    font-size: 20px;
+    font-weight: 600;
   }
 
   .card{
