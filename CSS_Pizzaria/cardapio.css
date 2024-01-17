@@ -1,0 +1,239 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#mainNavigation a {
+  font-family: 'Cabin', sans-serif;
+  font-size:16px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.invert{
+  width: 120px;
+}
+
+
+.dropdown-menu {
+  background-color: #ff0c0c;
+  width: 100%;
+  border: none;
+  transition: none;
+  margin-left: auto;
+  text-align: center; 
+}
+
+.dropdown-menu:hover a{
+  background-color: #ff0c0c;
+}
+a.dropdown-toggle {
+  color:#dfdfdf; 
+}
+a.dropdown-item:hover {
+  color:#116101;
+  
+}
+.nav-item a{
+  color:#dfdfdf;
+}
+.nav-item a:hover {
+  color:#161515;
+}
+.nav-item{
+  min-width:14vw;
+}
+#mainNavigation {
+  width:100%;
+  background-color: #ff0c0c;
+  height: 0px;
+  padding-bottom:210px;
+}
+#navbarNavDropdown.collapsing .navbar-nav,
+#navbarNavDropdown.show .navbar-nav{
+  background:#e90a0a;
+  padding:12px;
+  display: inline-block;
+  width: 100%;
+}
+
+
+/* TITULO */
+.title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 280px;
+  background-image: url(../IMG/Banner_cardapio2.jpg);
+  background-position: center;
+  
+}
+.title div{
+  width: 100%;
+  height: 100%;
+  background-color: #000000b6;
+}
+.title h1,
+.title h2 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 100px;
+  display: block;
+  margin: 0;
+
+}
+.title h1{
+  margin-top: 20px;
+}
+
+.title h2 {
+  color: #ffffff;
+  font-size: 90px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  
+}
+
+.container-pizzas {
+  position: relative;
+  margin-top: .5rem;
+}
+
+.container-pizzas h3{
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 50px;
+    
+}
+
+.line-monte{
+    border: 1px solid red;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+.monte-pizza{
+    position: relative;
+    padding-top:1rem ;
+}
+
+.monte-pizza h4{
+position: absolute;
+top:25px;
+left: 80px;
+background-color: 35px;
+background-color: white;
+padding: 10px;
+color: #000000;
+font-size: 25px;
+text-transform: uppercase;
+
+}
+
+.container-monte{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+.container-pizzas-monte{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 1;
+  gap: 20px;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 418px;
+  height: auto;
+  min-height: 220px;
+  padding: 1rem;
+  background-color: #fdfcfc  ;
+  margin-bottom: 1rem;
+
+
+
+}
+
+.foto_pizza{
+  max-width: 50%;
+  min-width: 50%;
+  height: 100%;
+  max-height: 265px;
+  margin-right: 15px;
+}
+
+#sabor_pizza{
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
+#descricao_pizza{
+  color: #797979;
+}
+
+#antigo_valor{
+  text-decoration:line-through;
+}
+
+.card p{
+  margin: 0 0 12px 0;
+}
+
+.quantidade{
+  width: 40px; 
+}
+
+
+input[type='submit']{
+  text-decoration: none;
+  padding: 8px 15px;
+  background-color: #c10000;
+  color: #fff;
+  margin-top: 5px;
+  border: none;
+
+}
+
+
+
+.preco_promo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row ;
+}
+.preco_promo p {
+  margin-right: 15px;
+}
+
+.separador{
+  margin-bottom: 40px;
+}
+
+.navbar-nav{
+  opacity: 0.9;
+}
+
+.itens-pizza{
+ height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+

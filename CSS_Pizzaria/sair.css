@@ -1,0 +1,60 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.logout{
+    height: 100%;
+    width: 100%;
+    background-image: url('../IMG/c75ed1cb-9152-441b-b0e2-de60efd8c88b\ \(1\).png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logout-box{
+    width: 300px;
+
+    height: 220px;
+    background-color: #3f3f3fd9;
+    border-radius: 5px;
+}
+
+.logout-pergunata{
+    font-size: 22px;
+    text-align: center;
+    margin: 1rem;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+
+.logout-button form{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+
+    
+}
+
+input{
+    padding: 5px 40px;
+    margin: 0.5rem;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(236, 19, 19);
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+input:hover{
+
+    background-color: rgb(174, 18, 18);
+
+}

@@ -1,0 +1,78 @@
+
+
+.row{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: rgb(249, 51, 51);
+      font-family: Arial, sans-serif;
+      background-image: url(../IMG/c6de39db-330b-4044-8b7e-07c201426f83_upscaled\ \(1\).png);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .info-section {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 2rem;
+      background-color: #3d3d3de0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      margin-top: 10px;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+      
+      justify-content: space-around;
+  }
+
+    .info-section h2 {
+      font-size: 28px;
+      color: rgb(0, 0, 0);
+      margin-bottom: 30px;
+      font-weight: 900;
+    }
+
+    .info-item {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+  }
+
+    .container_itens{
+      text-align: right;
+      width: 70%;
+    }
+
+    #itens_container{
+      font-size: 18px;
+    }
+
+    .info-item label {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .info-item span {
+      font-size: 20px;
+      color: #f8f9fa;
+    }
+
+    #concluido{
+      padding: 5px 10px;
+      text-align: center;
+      background-color: rgb(221, 3, 3);
+      border-radius: 5px;
+      text-decoration: none;
+      color: rgb(231, 231, 231);
+      font-size: 20px;
+      transition: 0.5s;
+    }
+
+    #concluido:hover{
+      background-color: rgb(197, 12, 12);
+    }

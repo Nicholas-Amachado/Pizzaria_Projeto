@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  #mainNavigation a {
+    font-family: 'Cabin', sans-serif;
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight: bold;
+    transition: 0.5s;
+  }
+  .invert{
+    width: 120px;
+  }
+  
+  .dropdown-menu {
+    background-color: #ff0c0c;
+    width: 100%;
+    border: none;
+    transition: none;
+    margin-left: auto;
+    text-align: center; 
+  }
+  
+  .dropdown-menu:hover a{
+    background-color: #ff0c0c;
+  }
+  a.dropdown-toggle {
+    color:#dfdfdf; 
+  }
+  a.dropdown-item:hover {
+    color:#116101;
+    
+  }
+  .nav-item a{
+    color:#dfdfdf;
+  }
+  .nav-item a:hover {
+    color:#161515;
+  }
+  .nav-item{
+    min-width:14vw;
+  }
+  #mainNavigation {
+    width:100%;
+    background-color: #ff0c0c;
+    height: 0px;
+    padding-bottom:210px;
+  }
+  #navbarNavDropdown.collapsing .navbar-nav,
+  #navbarNavDropdown.show .navbar-nav{
+    background:#e90a0a;
+    padding:12px;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  
+  /* TITULO */
+  .title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    background-image: url(../IMG/Imagem_carrinho2.jpg);
+    background-position: center;
+    background-size:contain;
+    margin-bottom: 20px;
+    
+  }
+  .title div{
+    width: 100%;
+    height: 100%;
+    background-color: #000000cb;
+  }
+  .title h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 200px;
+    letter-spacing: 3px;
+  }
+  .title h1{
+    margin-top: 20px;
+  }
+  td{
+    margin: 50px;
+  }
+
+  .img_compra{
+    height: 50px;
+  }
+  .carrinho{
+    width: 60%;
+  }
+  .table{
+    width: 100%;
+  }
+
+  .result{
+    color: #e90a0a;
+    font-family: 15px;
+    display: block;
+    position: absolute;
+    top: 10px;
+  }
+
+  .cupom{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between  ;
+
+  }
+  .input-cupom{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  .input-cupom input[type ="text"]{
+    width: 200px;
+    height: 35px;
+
+  }
+  .input-cupom input[type ="submit"]{
+    color: #161515;
+    padding: 5px;
+    width: 60px;
+    height: 35px;
+    background-image: url(../IMG/procurar.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+
+  }
+
+
+  main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem 8rem ;
+  }
+
+  .total{
+    
+  width: 25%;
+  height: 500px;
+  
+  }
+
+  .info-total{
+    background-color: #3b3a3a2a;
+    border:1px gray solid ;
+  }
+
+  h2{
+    text-align: center;
+    margin-top: 10px;
+    border-bottom:1px gray solid ;
+    padding: 10px;
+  }
+
+
+
+  .particao{
+    display: flex;
+    font-size: 18px;
+    padding: 1rem;
+    justify-content: space-between;
+    position: relative;
+  }
+  .result_cupom{
+    color: #f60202;
+    text-align: right;
+    position: absolute;
+    top: 50px;
+    left: 271px;
+  }
+
+  .particao_total{
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #3b3a3a70;
+    font-weight: 800;
+  }
+
+  .total-btn input{
+    width: 100%;
+    background-color: #27c707;
+    margin-top: 1.5rem;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .limpacarrinho input[type = "submit"]{
+    width: 20%;
+    background-color: #ff0000;
+    margin-top: 1.5rem;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
